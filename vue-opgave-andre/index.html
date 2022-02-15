@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <style>
+        .box{
+            padding: 100px 0;
+            width: 400px;
+            text-align: center;
+            background: #dfe;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        body{
+            background: #ddd;
+            max-width: 960px;
+            margin: 20px auto;
+        }
+        p, h3, ul{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style-type: none;
+            background: #fff;
+            margin: 20px auto;
+            padding: 10px 20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        li.fav{
+            background: #ff9ed2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Skrrt</h1>
+    <div id="app">
+
+        <!-- attribure binding -->
+         <a :href="url">UCL</a> <!-- : er forkortelse for v-bind -->
+
+        <div v-if="showBooks"> <!--  v-if gør at det bliver fjernet fra DOM, indtil det er true igen -->
+            <ul>
+                <li v-for="item in filteredBooks" :class="{ fav: item.isFav }" @click="toggleFav(item)">
+                    <img :src="item.img" :alt="item.title">
+                    <h3>{{item.title}}</h3>
+                    <p>{{item.author}}</p>
+                </li>
+            </ul>
+        </div>
+
+        <button  @click="toggleShowBooks">
+            <span v-if="showBooks">Hide Books</span>
+            <span v-else>Show Books</span>
+        </button>
+
+        <div v-show="showBooks">Currently showing books</div> <!--  v-show bruger css, hvilket gør at det ikke bliver fjernet fra DOM, når det er false -->
+
+
+
+        <br>
+        <!-- mouse events -->
+        <div class="box" @mouseover="handleEvent($event, 5)">mousover (enter)</div>
+        <div class="box" @mouseleave="handleEvent">mouseleave</div>
+        <div class="box" @dblclick="handleEvent">double click</div>
+        <div class="box" @mousemove="handleMousemove">Position - {{ x }} {{ y }}</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
