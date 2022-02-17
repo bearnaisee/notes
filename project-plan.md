@@ -32,7 +32,9 @@ Dem der kan har nytte af projektet kan være lokale supermarkeder der får mulig
 
 ## Projektstyring
 
-Team 1 vil bruge en agile scrum board til projektstyringsmetode.
+Team 1 vil bruge en agile scrum board til projektstyringsmetode via github project board.
+https://github.com/orgs/Bearnaisee/projects/1/views/1?layout=board
+
 
 ## Risikovurdering
 
@@ -42,13 +44,13 @@ https://docs.google.com/document/d/1aOaY8G56iSpFM0zw2IFkheQnaSA57u7cZvwkJ5FPUaM/
 
 ### Forventninger
 
-Teamet forventer at alle levere en tilfreds indsats og at slutproduktet er noget alle fra teamet kan stå indenfor.
+Teamet forventer at alle deltager aktivt og er engageret i projektet. Da teamet udfylder stort set alle belbin roller, forventes der at slutproduktet er helstøbt, som teamet kan stå indenfor. Udover er det også vigtigt at det ikke kun er slutproduktet fokusset ligger, men at alle får en lærerig process, hvor de enkelte opnår læringsmålene.
 
 ### Krav
 
 Vi er fleksible med mødetider.
-Hvis ikke man kommer eller bliver forhindret/forsinket, gives der en melding.
-Hvis der er en fra teamet ikke har mødt op eller svaret efter 2 dage, vil underviseren blive kontaktet.
+Hvis ikke man kommer eller bliver forhindret/forsinket, gives der en melding. Dette skal helst være dagen før og ikke på selve dagen. 
+Hvis der er en fra teamet ikke har mødt op eller svaret efter 2 dage, vil den blevet taget internt i gruppen og vurderet om underviseren skal blive kontaktet.
 
 ### Teamets Belbins roller
 
