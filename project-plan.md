@@ -140,10 +140,30 @@ Gruppen har valgt at arbejde videre med Bearnaisee, social media platformen til 
 
 Produktet vil være C2C baseret. Som udgangspunkt ville platformen primære indtægt være reklamer. På sigt kan der inkorporeres opskrifter som kræver betaling eller abonnement, og dermed drage inspiration fra Patreon & Only Fans forretningsmodel.
 
-Produkt vil blive lavet som en SPA ved hjælp af Vue.js. Målet er at produktet også kan downloades som en PWA. Til state management vil librariet/patternet Vuex blive brugt til at organisere applikationens state på tværs af komponenterne.
 
-BEM naming convention vil blive brugt til nemmere at kunne for at gøre stylingen mere readable.
+Færdigheder
 
-Backenden laves i Express. Dertil vil backenden blive koblet på en postgresql database.
+Planlægge, udvikle og implementere/idriftsætte client-side web applikationer baseret på konkrete udviklingsønsker (skal hostes live/deploy, se krav til projekt)
+- Dette opnås ved at anvende Github projekt til at planlægge, samt organisere de konkrete udviklingsønsker. Dette er gøres ved at bruge SCRUM metoden, hvor udviklingsønskerne er backlogs, der bliver opdateret gennem løbende faser. 
 
-Der vil blive opsat workflows til formattering samt linting af kodebasen for at sikre sig en ensartet struktur på tværs af systemet.
+
+Vælge egnede værktøjer og metoder til implementering af client-side web applikationer
+Produktet vil blive lavet som en SPA ved hjælp af Vue.js. Målet er at produktet også kan downloades som en PWA. 
+
+Implementere cross-platform web brugergrænseflader
+- Med Vue.js sikrer vi, at der bygges en cross-platform applikation, der kan fungere på alle browsere og enheder.
+
+Implementere client-side logik
+- Her vil Vue.js frameworket blive anvendt til at bygge en client side applikation.
+Til state management vil libraryet/patternet Vuex blive brugt til at organisere applikationens state på tværs af komponenterne.
+
+Anvende metoder til kvalitetssikring af client-side web applikationer
+- For at undgå fejl, er der planlægningsmæssigt valgt SCRUM for at have en klar plan og deadlines. BEM naming conventions skal også anvendes, for at gøre html og css delen mere overskueligt i gruppen og dermed minimere evt. referencer.  
+
+Kompetencer
+
+Analysere komplekse udviklingsønsker til at vælge og anvende egnede workflows, metoder, værktøjer og frameworks til implementering af cross-platform, performant, vedligeholdelsesvenlig og dynamiske client-side web applikationer.
+
+- Projektgruppen mener at applikationen dækker de krav, der er stillet fra studieordningen. Ved at opnå alle gruppens udviklingsønsker til afleveringsdatoen, er der udviklet en funktionel client-side web applikation udviklet i vue.js. På den måde opnås der de kompetencer der kræves, for dette semester projekt. 
+
+
