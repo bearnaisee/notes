@@ -148,7 +148,7 @@ Produktet vil være C2C baseret. Som udgangspunkt ville platformen primære indt
 
 
 ### Vælge egnede værktøjer og metoder til implementering af client-side web applikationer
-Produktet vil blive lavet som en SPA ved hjælp af Vue.js. Målet er at produktet også kan downloades som en PWA. 
+- Produktet vil blive lavet som en SPA ved hjælp af Vue.js. Målet er at produktet også kan downloades som en PWA. 
 
 ### Implementere cross-platform web brugergrænseflader
 - Med Vue.js sikrer vi, at der bygges en cross-platform applikation, der kan fungere på alle browsere og enheder.
